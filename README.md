@@ -15,6 +15,7 @@ This project dynamically generates cool Pokémon cards of your favourite Pokémo
 <img src="Images/3.png" width="200" height="350">
 <img src="Images/4.png" width="200" height="350">
 <img src="Images/5.png" width="200" height="350">
+<img src="Images/8.png" width="200" height="350">
 </p>
 
 ### Features
