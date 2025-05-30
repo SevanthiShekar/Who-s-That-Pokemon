@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who's That Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/pokeball-left.png">
+</head>
+<body>
+    <header>
+        <img src="Images/pokeball-left.png" alt="Pokeball">
+        <h1 class="title">Who's That Pokemon?</h1>
+        <img src="Images/pokeball-right.png" alt="Pokeball">
+    </header>
+    <main>
+        <section>
+            <div>
+                <input type="text" id="pokemonName" placeholder="Enter Pokemon" required maxlength="20" autocomplete="off">
+                <!--required doesn't work here because <input> isn't in a form. It does display a small overlay that
+                says please fill out this field-->
+                <button onclick="fetchPokemon()">Fetch</button>
+            </div>
+            <div class="display" id="display">
+                <div class="images">
+                    <img src="Images/Opening.gif" id="pokemonSprite1">
+                    <img src="" id="pokemonSprite2">
+                </div>
+                <div class="card">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
