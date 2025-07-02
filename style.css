@@ -169,6 +169,11 @@ button:hover{
         padding: 3px;
         width: 100px;
     }
+    .gif
+    {
+        height: 300px;
+        width:400px;
+    }
     button{
         font-size: 1.25rem;
         padding: 2px 15px;
@@ -215,5 +220,12 @@ button:hover{
         margin: 15px 0px;
         padding: 5px;
         border-radius: 20px;
+    }
+    .error{
+    height: 300px;
+    width: 400px;
+    }
+    .error-msg{
+        font-size: 1.5rem;
     }
 }
