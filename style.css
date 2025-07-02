@@ -172,7 +172,7 @@ button:hover{
     .gif
     {
         height: 300px;
-        width:400px;
+        width: 350px;
     }
     button{
         font-size: 1.25rem;
@@ -223,7 +223,7 @@ button:hover{
     }
     .error{
     height: 300px;
-    width: 400px;
+    width: 350px;
     }
     .error-msg{
         font-size: 1.5rem;
